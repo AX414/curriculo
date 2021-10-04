@@ -36,6 +36,7 @@ footer {
     background-image: url(../Imagem/card2.gif);
     background-color: #272760;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     margin-left: 2em;
     padding-right: 30em;
     background-size: cover;
