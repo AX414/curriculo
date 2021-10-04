@@ -18,7 +18,32 @@ body{
 
 footer{
     background-size: cover;
-    margin-top: 10%;
+}
+
+#imgBanner{
+    background-image: url(../Imagem/card.gif);
+    background-repeat: no-repeat; 
+    margin-top: 50px; 
+    padding-top: 50px; 
+    background-size: cover;
+}
+
+#github{
+    padding-top: 1em;
+}
+
+#lattes{
+    background-image: url(../Imagem/card2.gif); 
+    background-color: #272760; 
+    background-repeat: no-repeat; 
+    margin-left:2em; 
+    padding-right:30em; 
+    background-size: cover; 
+    padding-top: 12em;
+}
+
+#tabela{
+    width: 70rem;
 }
 
 .navbar-custom{
@@ -55,3 +80,46 @@ footer{
     img.scaled {
         width: 100%;
     }
+
+    td {
+        margin-top: 2%;
+        display: block;
+    }
+
+    #imgBanner{
+        padding-right:1em; 
+        width: 100%;
+    }
+
+    #descricao .card{
+        padding-right:1em; 
+        width: 100%;
+    }
+
+    #github .card{
+        padding-right:1em; 
+        width: 100%;
+    }
+
+    #octocat{
+        width: 100%;
+    }
+    
+    #lattes{
+        background-image: url(../Imagem/card3.gif); 
+        padding-top: 0em;
+        margin-left:0em; 
+        padding-right:1em; 
+        width: 100%;
+    }
+    
+    #tabela{
+        width: 100%;
+    }
+
+    .container{
+        width: 80%;
+    }
+    
+
+}

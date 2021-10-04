@@ -29,8 +29,7 @@ and open the template in the editor.
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-custom fixed-top navbar-expand-lg">
-            <div class="container" style="font-size:17px;">
-
+            <div style="font-size:17px;">
                 <!-- Brand -->
                 <a class="navbar-brand waves-effect" target="_blank">
                     <strong style="font-size:20px;font-weight: lighter;color: #0CFFE1;">
@@ -46,18 +45,16 @@ and open the template in the editor.
         <!-- Navbar -->
     </header>
     <!--Main layout-->
-    <main class="mt-5 pt-5">
-        <div class="container">
+    <main class="mt-5 pt-5 container">
+        <div>
             <!--Section: Jumbotron-->
-            <section class="card wow fadeIn"
-                style="background-image: url(Imagem/card.gif);background-repeat: no-repeat; padding-top: 100px; background-size: cover;">
+            <section id="imgBanner" class="card wow fadeIn">
                 <!-- Content -->
-                <div class="card-body text-white text-center py-1 px-1 my-1 " style="padding-bottom: 20px;">
+                <div id="banner" class="card-body text-white text-center py-1 px-1 my-1 " style="padding-bottom: 20px;">
                     <h1 class="mb-6, textoAnimacao" style="padding-bottom: 20px; font-size:50px;">
                         João Victor Lisboa Porcel
                     </h1>
                     <script>
-
                         function typeWriter(elem) {
                             const textoArray = elem.innerHTML.split('');
                             elem.innerHTML = '';
@@ -65,20 +62,18 @@ and open the template in the editor.
                                 setTimeout(() => elem.innerHTML += letra, 75 * i);
                             })
                         }
-
                         typeWriter(document.querySelector('.textoAnimacao'));
                     </script>
                     <p>
                         <strong style="font-size:30px; color: #0CFFE1;">Técnico em Informática</strong>
                     </p>
-
                 </div>
                 <!-- Content -->
             </section>
             <br />
             <center>
                 <table>
-                    <td>
+                    <td id="descricao">
                         <div class="card" style="margin-right: 2em;">
                             <div class="card-body">
                                 <h5 class="card-title text-center"><b>Descrição:</b></h5>
@@ -90,36 +85,36 @@ and open the template in the editor.
                             </div>
                         </div>
                     </td>
-                    <td>
-                        <div class="card" style="padding-top: 1em;">
+                    <td id="github">
+                        <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title text-center"><b>Meu Github:</b></h5>
-                                <a href="https://github.com/AX414"><img src="Imagem/icones/octocat.gif"></a>
+                                <a href="https://github.com/AX414"><img src="Imagem/icones/octocat.gif"
+                                        id="octocat"></a>
                             </div>
                         </div>
                     </td>
                     <td>
-                        <section class="card wow fadeIn"
-                            style="background-image: url(Imagem/card2.gif); background-color: #272760; 
-                            background-repeat: no-repeat; margin-left:2em; padding-right:30em; background-size: cover; padding-top: 12em;">
+                        <section id="lattes" class="card wow fadeIn">
                             <!-- Content -->
                             <div class="card-body text-white">
                                 <p>
-                                    <strong>Currículo Lattes:</strong>
-                                    <a href="http://lattes.cnpq.br/6341789681719819"> link</a>
+                                    <strong>Currículo Lattes:
+                                        <a href="http://lattes.cnpq.br/6341789681719819"> link</a>
+                                    </strong>
                                 </p>
                             </div>
                             <!-- Content -->
                         </section>
-                    </td>   
+                    </td>
                 </table>
             </center>
             <!--Section: Jumbotron-->
             <br class="my-5">
-            <div class="card" style=" width: 70rem;">
+            <div id="tabela" class="card">
                 <div class="card-body">
                     <table>
-                        <t>
+                        <tr>
                             <h1> <img src="Imagem/icones/id.png" width="48px" height="48px" /> Identificação</h1>
                             <hr class="separator">
                             <p><b>Nome:</b> João Victor Lisboa Porcel </p>
@@ -178,13 +173,14 @@ and open the template in the editor.
                                         src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
                                         target="_blank"></a>
                             </div>
-                            </tr>
+                        </tr>
                     </table>
                 </div>
             </div>
             <footer style="margin: 10em;">
                 <p>.</p>
             </footer>
+        </div>
     </main>
 </body>
 
