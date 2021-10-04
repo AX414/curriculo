@@ -10,6 +10,7 @@ and open the template in the editor.
 body {
     background: url(../Imagem/fundo.gif) no-repeat fixed;
     background-size: cover;
+    background-attachment: fixed;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -36,7 +37,6 @@ footer {
     background-image: url(../Imagem/card2.gif);
     background-color: #272760;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     margin-left: 2em;
     padding-right: 30em;
     background-size: cover;
