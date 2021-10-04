@@ -33,9 +33,9 @@ and open the template in the editor.
 
                 <!-- Brand -->
                 <a class="navbar-brand waves-effect" target="_blank">
-                    <strong style="font-size:20px;font-weight: lighter;color: #0CFFE1; ">
-                        Currículo ACADÊMICO
-                        <i class="white-text fa fa-graduation-cap mr-2 ml-1"></i></strong>
+                    <strong style="font-size:20px;font-weight: lighter;color: #0CFFE1;">
+                        {Tela_Currículo}
+                    </strong>
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -53,12 +53,25 @@ and open the template in the editor.
                 style="background-image: url(Imagem/card.gif);background-repeat: no-repeat; padding-top: 100px; background-size: cover;">
                 <!-- Content -->
                 <div class="card-body text-white text-center py-1 px-1 my-1 " style="padding-bottom: 20px;">
-                    <h1 class="mb-6" style="padding-bottom: 20px;">
-                        <strong style="font-size:50px;">João Victor Lisboa Porcel</strong>
+                    <h1 class="mb-6, textoAnimacao" style="padding-bottom: 20px; font-size:50px;">
+                        João Victor Lisboa Porcel
                     </h1>
+                    <script>
+
+                        function typeWriter(elem) {
+                            const textoArray = elem.innerHTML.split('');
+                            elem.innerHTML = '';
+                            textoArray.forEach((letra, i) => {
+                                setTimeout(() => elem.innerHTML += letra, 75 * i);
+                            })
+                        }
+
+                        typeWriter(document.querySelector('.textoAnimacao'));
+                    </script>
                     <p>
-                        <strong style="font-size:30px; color: white ;">Técnico em Informática</strong>
+                        <strong style="font-size:30px; color: #0CFFE1;">Técnico em Informática</strong>
                     </p>
+
                 </div>
                 <!-- Content -->
             </section>
@@ -66,39 +79,39 @@ and open the template in the editor.
             <center>
                 <table>
                     <td>
-                        <div class="card" style="margin-right: 2rem;">
+                        <div class="card" style="margin-right: 2em;">
                             <div class="card-body">
-                                <h5 class="card-title"><b>Descrição</b></h5>
+                                <h5 class="card-title text-center"><b>Descrição:</b></h5>
                                 <p style="text-align:justify; text-indent: 4rem;" class="card-text">"Meu nome é João
                                     Porcel, sou cursado em Técnico de Informática e estou cursando a
                                     faculdade de Bacharel de Ciência da Computação, tenho 19 anos de idade e pretendo
                                     continuar na área o máximo que puder. Gosto de aprender sobre tecnologias novas e me
                                     encontro ápto para aprender mais a cada dia!"</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card" style="padding-top: 1em;">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><b>Meu Github:</b></h5>
+                                <a href="https://github.com/AX414"><img src="Imagem/icones/octocat.gif"></a>
                             </div>
                         </div>
                     </td>
                     <td>
                         <section class="card wow fadeIn"
-                        style="background-image: url(Imagem/card.gif);background-repeat: no-repeat; padding-top: 100px; background-size: cover;">
-                        <!-- Content -->
-                        <div class="card-body text-white text-center py-1 px-1 my-1 " style="padding-bottom: 20px;">
-                            <p><strong>Currículo Lattes:</strong><a href="http://lattes.cnpq.br/6341789681719819"> link</a></p>
-                        </div>
-                        <!-- Content -->
-                    </section>
-                    </td>
-                    <td>
-                        <div class="card" style="margin-left: 2rem;">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Descrição</b></h5>
-                                <p style="text-align:justify; text-indent: 4rem;" class="card-text">"Meu nome é João
-                                    Porcel, sou cursado em Técnico de Informática e estou cursando a
-                                    faculdade de Bacharel de Ciência da Computação, tenho 19 anos de idade e pretendo
-                                    continuar na área o máximo que puder. Gosto de aprender sobre tecnologias novas e me
-                                    encontro ápto para aprender mais a cada dia!"</p>
+                            style="background-image: url(Imagem/card2.gif); background-color: #272760; 
+                            background-repeat: no-repeat; margin-left:2em; padding-right:30em; background-size: cover; padding-top: 12em;">
+                            <!-- Content -->
+                            <div class="card-body text-white">
+                                <p>
+                                    <strong>Currículo Lattes:</strong>
+                                    <a href="http://lattes.cnpq.br/6341789681719819"> link</a>
+                                </p>
                             </div>
-                        </div>
-                    </td>
+                            <!-- Content -->
+                        </section>
+                    </td>   
                 </table>
             </center>
             <!--Section: Jumbotron-->
@@ -106,7 +119,7 @@ and open the template in the editor.
             <div class="card" style=" width: 70rem;">
                 <div class="card-body">
                     <table>
-                        <tr>
+                        <t>
                             <h1> <img src="Imagem/icones/id.png" width="48px" height="48px" /> Identificação</h1>
                             <hr class="separator">
                             <p><b>Nome:</b> João Victor Lisboa Porcel </p>
@@ -153,13 +166,26 @@ and open the template in the editor.
                                 <li><b>2018-</b> Prêmio de 1° lugar nas Olimpíadas de Programação da Semana de Ciência e
                                     Tecnologia de 2018, IFSP de Presidente Epitácio.</li>
                             </ul>
-                        </tr>
+                            <br class="mt-5">
+                            <h1> <img src="Imagem/icones/contato.png " width="48px" height="48px" /> Contatos</h1>
+                            <hr class="separator">
+                            <div style="display: inline-block;">
+                                <a href="mailto:joaovictorlisboaporcel@hotmail.com"><img
+                                        src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"
+                                        target="_blank"></a>
+                                <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-lisboa-porcel-2755b61a5/"
+                                    target="_blank"><img
+                                        src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                                        target="_blank"></a>
+                            </div>
+                            </tr>
                     </table>
                 </div>
             </div>
-            <footer>
-                <p>a</p>
+            <footer style="margin: 10em;">
+                <p>.</p>
             </footer>
+    </main>
 </body>
 
 </html>
