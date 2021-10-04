@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 de mar de 2020, 17:27:08
+    Author     : joaov
+*/
+body{
+    background:url(../Imagem/fundo.gif) no-repeat fixed;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    position: absolute;
+}
+
+footer{
+    margin-top: 10%;
+}
+
+.navbar-custom{
+    background-color: #272760;
+}
