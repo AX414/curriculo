@@ -41,3 +41,17 @@ footer{
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 590px) {
+
+    h1{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    
+    img.scaled {
+        width: 100%;
+    }
