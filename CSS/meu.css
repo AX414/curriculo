@@ -72,12 +72,9 @@ footer {
 }
 
 .glitch {
-    font-size: 10rem;
-    font-weight: lighter;
     text-transform: uppercase;
     position: relative;
     font-size:20px;
-    color: #0CFFE1;
     text-shadow:
         0.05em 0 0 rgb(255, 0, 0, .75),
         0.025em 0.05em 0 rgb(0, 255, 0, .75),
