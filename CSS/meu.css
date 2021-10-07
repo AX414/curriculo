@@ -36,11 +36,16 @@ br{
     padding: 10%;
 }
 
+td{
+    margin-bottom: 2em;
+}
+
 #imgBanner {
     background-image: url(../Images/card.gif);
     background-repeat: no-repeat;
     margin-top: 50px;
     padding-top: 50px;
+    width: 100%;
     background-size: cover;
 }
 
@@ -51,7 +56,6 @@ br{
 #lattes {
     background-image: url(../Images/card2.gif);
     background-color: #272760;
-    margin-left: 2em;
     padding-right: 30em;
     padding-top: 10rem;
     padding-bottom: 10px;
@@ -69,12 +73,12 @@ br{
     background-color: #272760;
 }
 
-.espaco{
-    margin-right: 2em;
-}
-
 .recuo {
     text-indent: 2em;
+}
+
+.espaco{
+    width: 2em;
 }
 
 .textoAnimacao::after {
@@ -159,7 +163,7 @@ br{
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 1200px) {
 
     h1 {
         font-size: 20px;
@@ -170,7 +174,8 @@ br{
     }
 
     img.scaled {
-        width: 100%;
+        width: 75px;
+        height: 100px;
     }
 
     td {
@@ -181,10 +186,6 @@ br{
     #imgBanner {
         padding-right: 1em;
         width: 100%;
-    }
-
-
-    #descricao .card {
     }
 
     #github .card {
