@@ -29,8 +29,8 @@ footer {
     background-size: cover;
 }
 
-#github {
-    padding-top: 1em;
+#octocat {
+    padding-bottom: 1rem;
 }
 
 #lattes {
@@ -40,7 +40,8 @@ footer {
     margin-left: 2em;
     padding-right: 30em;
     background-size: cover;
-    padding-top: 12em;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
 }
 
 #tabela {
