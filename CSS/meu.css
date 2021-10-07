@@ -7,8 +7,9 @@ and open the template in the editor.
     Created on : 11 de mar de 2020, 17:27:08
     Author     : joaov
 */
+
 body {
-    background: url(../Imagem/fundo.gif) no-repeat fixed;
+    background: url(../Images/fundo.gif) no-repeat fixed;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
@@ -21,8 +22,12 @@ footer {
     background-size: cover;
 }
 
+h3{
+    font-weight: bold;
+}
+
 #imgBanner {
-    background-image: url(../Imagem/card.gif);
+    background-image: url(../Images/card.gif);
     background-repeat: no-repeat;
     margin-top: 50px;
     padding-top: 50px;
@@ -34,7 +39,7 @@ footer {
 }
 
 #lattes {
-    background-image: url(../Imagem/card2.gif);
+    background-image: url(../Images/card2.gif);
     background-color: #272760;
     margin-left: 2em;
     padding-right: 30em;
@@ -52,6 +57,10 @@ footer {
 
 .espaco{
     margin-right: 2em;
+}
+
+.recuo{
+    text-indent: 2em;
 }
 
 .textoAnimacao::after {
@@ -175,7 +184,7 @@ footer {
     }
 
     #lattes {
-        background-image: url(../Imagem/card3.gif);
+        background-image: url(../Images/card3.gif);
         padding-top: 0em;
         margin-left: 0em;
         padding-right: 1em;
@@ -225,7 +234,7 @@ footer {
     }
 
     #lattes {
-        background-image: url(../Imagem/card3.gif);
+        background-image: url(../Images/card3.gif);
         padding-top: 0em;
         margin-left: 0em;
         padding-right: 1em;
