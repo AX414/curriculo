@@ -51,6 +51,10 @@ h3{
     width: 70rem;
 }
 
+#contatos{
+    text-indent:2em;
+}
+
 .navbar-custom {
     background-color: #272760;
 }
@@ -195,13 +199,14 @@ h3{
         width: 100%;
     }
 
+    #contatos{
+        text-indent:0em;
+    }
+
     .container {
         width: 80%;
     }
 
-    .espaco{
-        margin-left: 2em;
-    }
 }
 
 @media screen and (max-height: 490px) {
