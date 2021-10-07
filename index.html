@@ -21,6 +21,7 @@ and open the template in the editor.
     <!-- Your custom styles (optional) -->
     <link href="./CSS/style.min.css" rel="stylesheet">
     <link href="./CSS/meu.css" rel="stylesheet">
+    <script src="./Javascript/script.js"></script>
     <link rel="shortcut icon" href="Images/Icons/chip.png" type="image/x-png">
 </head>
 
@@ -51,18 +52,10 @@ and open the template in the editor.
             <section id="imgBanner" class="card wow fadeIn">
                 <!-- Content -->
                 <div id="banner" class="card-body text-white text-center py-1 px-1 my-1 " style="padding-bottom: 20px;">
-                    <h1 class="mb-6, textoAnimacao" style="padding-bottom: 20px; font-size:50px;">
+                    <h1 class="mb-6 textoAnimacao" onload="typeWriter()" style="padding-bottom: 20px; font-size:50px;">
                         João Victor Lisboa Porcel
                     </h1>
-                    <script>
-                        function typeWriter(elem) {
-                            const textoArray = elem.innerHTML.split('');
-                            elem.innerHTML = '';
-                            textoArray.forEach((letra, i) => {
-                                setTimeout(() => elem.innerHTML += letra, 75 * i);
-                            })
-                        }
-                        typeWriter(document.querySelector('.textoAnimacao'));
+                    <script type="text/javascript" src="Javascript/script.js">
                     </script>
                     <p>
                         <strong style="font-size:30px; color: #0CFFE1;">Técnico em Informática</strong>
@@ -124,7 +117,6 @@ and open the template in the editor.
                                 <p><b>Idade Atual:</b> 19</p>
                                 <p><b>Sexo:</b> Masculino</p>
                             </div>
-
                             <br class="mt-5">
                             <h1> <img src="Images/Icons/casa.png" width="48px" height="48px" /> Endereço</h1>
                             <hr class="separator">
@@ -173,46 +165,53 @@ and open the template in the editor.
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
                                     <p>
-                                    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> 
-                                        Conhecimento Intermediário (Desenvolvimento de sites com o uso de
+                                        <img
+                                            src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
+                                        - Conhecimento Intermediário (Desenvolvimento de sites com o uso de
                                         Linguagem de Marcação de Hipertexto).
                                     </p>
                                 <li class="list-group-item">
                                     <p>
-                                    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-                                        Conhecimento Intermediário.
+                                        <img
+                                            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
+                                        - Conhecimento Intermediário.
                                     </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p>
-                                    <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
-                                        Conhecimento Intermediário (Java Orientado à Objetos, Desenvolvimento
+                                        <img
+                                            src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" />
+                                        - Conhecimento Intermediário (Java Orientado à Objetos, Desenvolvimento
                                         de Sistemas Locais com Swing e JPA).
                                     </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p>
-                                    <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
-                                        Conhecimento Intermediário (Desenvolvimento de Banco de Dados e
+                                        <img
+                                            src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+                                        - Conhecimento Intermediário (Desenvolvimento de Banco de Dados e
                                         Modelagem de Dados).
                                     </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p>
-                                    <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"/>
-                                        Conhecimento Razoável.
+                                        <img
+                                            src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+                                        - Conhecimento Razoável.
                                     </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p>
-                                    <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-                                        Conhecimento Intermediário.
+                                        <img
+                                            src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+                                        - Conhecimento Intermediário.
                                     </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p>
-                                    <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"/>
-                                        Conhecimento Básico
+                                        <img
+                                            src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" />
+                                        - Conhecimento Básico
                                     </p>
                                 </li>
                             </ul>
@@ -231,11 +230,11 @@ and open the template in the editor.
                     </table>
                 </div>
             </div>
-            <footer style="margin: 10em;">
-                <p>.</p>
-            </footer>
         </div>
     </main>
+    <footer>
+        <p></p>
+    </footer>
 </body>
 
 </html>

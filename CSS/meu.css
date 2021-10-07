@@ -19,11 +19,21 @@ body {
 }
 
 footer {
+    background-color: #272760;
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position:absolute;
+    padding-top: 50px;
+    margin-top: 10em;
 }
 
-h3{
+h3 {
     font-weight: bold;
+}
+
+br{
+    padding: 10%;
 }
 
 #imgBanner {
@@ -51,8 +61,8 @@ h3{
     width: 70rem;
 }
 
-#contatos{
-    text-indent:2em;
+#contatos {
+    text-indent: 2em;
 }
 
 .navbar-custom {
@@ -63,7 +73,7 @@ h3{
     margin-right: 2em;
 }
 
-.recuo{
+.recuo {
     text-indent: 2em;
 }
 
@@ -90,7 +100,7 @@ h3{
 .glitch {
     text-transform: uppercase;
     position: relative;
-    font-size:20px;
+    font-size: 20px;
     text-shadow:
         0.05em 0 0 rgb(255, 0, 0, .75),
         0.025em 0.05em 0 rgb(0, 255, 0, .75),
@@ -173,9 +183,8 @@ h3{
         width: 100%;
     }
 
+
     #descricao .card {
-        padding-right: 1em;
-        width: 100%;
     }
 
     #github .card {
@@ -199,8 +208,8 @@ h3{
         width: 100%;
     }
 
-    #contatos{
-        text-indent:0em;
+    #contatos {
+        text-indent: 0em;
     }
 
     .container {
@@ -217,11 +226,6 @@ h3{
     }
 
     #imgBanner {
-        padding-right: 1em;
-        width: 100%;
-    }
-
-    #descricao .card {
         padding-right: 1em;
         width: 100%;
     }
