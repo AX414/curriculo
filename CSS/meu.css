@@ -163,7 +163,7 @@ td{
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
 
     h1 {
         font-size: 20px;
@@ -209,7 +209,7 @@ td{
 
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 620px) {
 
     td {
         margin-top: 2%;
