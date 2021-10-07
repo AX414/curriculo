@@ -163,7 +163,7 @@ td{
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 
     h1 {
         font-size: 20px;
@@ -183,18 +183,8 @@ td{
         display: block;
     }
 
-    #imgBanner {
-        padding-right: 1em;
-        width: 100%;
-    }
-
-    #github .card {
-        padding-right: 1em;
-        width: 100%;
-    }
-
     #octocat {
-        width: 100%;
+        width: 20%;
     }
 
     #lattes {
@@ -219,7 +209,7 @@ td{
 
 }
 
-@media screen and (max-height: 490px) {
+@media screen and (max-height: 600px) {
 
     td {
         margin-top: 2%;
@@ -238,8 +228,6 @@ td{
 
     #octocat {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 20%;
     }
 
