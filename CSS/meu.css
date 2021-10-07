@@ -200,7 +200,7 @@ h3{
     }
 
     .espaco{
-        margin-right: 0em;
+        margin-left: 2em;
     }
 }
 
@@ -249,7 +249,4 @@ h3{
         width: 80%;
     }
 
-    .espaco{
-        margin-right: 0em;
-    }
 }
