@@ -28,6 +28,10 @@ footer {
     margin-top: 10em;
 }
 
+h1{
+    margin-left: 7rem;
+}
+
 h3 {
     font-weight: bold;
 }
@@ -38,6 +42,11 @@ br{
 
 td{
     margin-bottom: 2em;
+}
+
+ul{
+    width: 80%;
+    margin-left: 4rem;
 }
 
 #imgBanner {
@@ -61,20 +70,12 @@ td{
     padding-bottom: 10px;
 }
 
-#tabela {
-    width: 70rem;
-}
-
 #contatos {
-    text-indent: 2em;
+    margin-bottom:1rem;
 }
 
 .navbar-custom {
     background-color: #272760;
-}
-
-.recuo {
-    text-indent: 2em;
 }
 
 .espaco{
@@ -167,6 +168,7 @@ td{
 
     h1 {
         font-size: 20px;
+        margin-left: 3rem;
     }
 
     p {
@@ -183,6 +185,12 @@ td{
         display: block;
     }
 
+    ul{
+        width: 100%;
+        margin-left: 0rem;
+        padding: 0em;
+    }
+
     #octocat {
         width: 20%;
     }
@@ -193,14 +201,6 @@ td{
         margin-left: 0em;
         padding-right: 1em;
         width: 100%;
-    }
-
-    #tabela {
-        width: 100%;
-    }
-
-    #contatos {
-        text-indent: 0em;
     }
 
     .container {
@@ -215,7 +215,7 @@ td{
         margin-top: 2%;
         display: inline;
     }
-
+    
     #imgBanner {
         padding-right: 1em;
         width: 100%;
