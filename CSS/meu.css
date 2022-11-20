@@ -9,16 +9,15 @@ and open the template in the editor.
 */
 
 body {
-    background: url(../Images/fundo.gif) no-repeat fixed;
+    background: url(../Images/iceland.jpg) no-repeat fixed;
     background-size: cover;
     background-attachment: fixed;
+    background-color: #00293b;
     width: 100%;
-    position: fixed;
-    position: absolute;
 }
 
 footer {
-    background-color: #272760;
+    background-color: #0a1017;
     width: 100%;
     position:absolute;
     padding-top: 25px;
@@ -43,7 +42,7 @@ p{
 }
 
 #imgBanner {
-    background-image: url(../Images/card.gif);
+    background-image: url(../Images/card.jpg);
     background-repeat: no-repeat;
     margin-top: 50px;
     padding-top: 50px;
@@ -51,16 +50,22 @@ p{
     background-size: cover;
 }
 
-#octocat {
-    padding-bottom: 14px;
+#descricao{
+    padding-bottom: 10%;
 }
 
-#lattes {
-    background-image: url(../Images/card2.gif);
-    background-color: #272760;
-    padding-right: 30em;
-    padding-top: 10rem;
-    padding-bottom: 10px;
+#octocat {
+    padding-bottom: 20%;
+}
+
+#foto {
+    background-image: url(../Images/me.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 45% 101%;
+    background-position: 50%;
+    padding-right: 35em;
+    padding-bottom: 51%;
 }
 
 #contatos {
@@ -68,7 +73,7 @@ p{
 }
 
 .navbar-custom {
-    background-color: #272760;
+    background-color: #0a1017;
 }
 
 .espaco{
@@ -98,7 +103,7 @@ p{
 .glitch {
     text-transform: uppercase;
     position: relative;
-    font-size: 20px;
+    font-size: 50px;
     text-shadow:
         0.05em 0 0 rgb(255, 0, 0, .75),
         0.025em 0.05em 0 rgb(0, 255, 0, .75),
@@ -184,16 +189,19 @@ p{
         padding: 0em;
     }
 
-    #octocat {
-        width: 20%;
+    #github {
+        padding-top: 0em;
+        padding-bottom: 0em;
+        margin-left: 0em;
+        width: 100%;
     }
 
-    #lattes {
-        background-image: url(../Images/card3.gif);
-        padding-top: 0em;
-        margin-left: 0em;
-        padding-right: 1em;
-        width: 100%;
+    #octocat{
+        padding-bottom: 0em;
+    }
+
+    #foto {
+        background-size: 45% 100%;
     }
 
     .container {
@@ -214,22 +222,19 @@ p{
         width: 100%;
     }
 
-    #github .card {
-        padding-right: 1em;
-        width: 100%;
-    }
-
-    #octocat {
-        display: block;
-        width: 20%;
-    }
-
-    #lattes {
-        background-image: url(../Images/card3.gif);
+    #github {
         padding-top: 0em;
+        padding-bottom: 0em;
         margin-left: 0em;
-        padding-right: 1em;
         width: 100%;
+    }
+
+    #octocat{
+        padding-bottom: 0em;
+    }
+
+    #foto {
+        background-size: 45% 100%;
     }
 
     #tabela {
