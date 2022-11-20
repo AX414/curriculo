@@ -13,13 +13,10 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-color: #00293b;
-    width: 100%;
 }
 
 footer {
     background-color: #0a1017;
-    width: 100%;
-    position:absolute;
     padding-top: 25px;
     margin-top: 10em;
 }
@@ -76,9 +73,6 @@ p{
     background-color: #0a1017;
 }
 
-.espaco{
-    width: 2em;
-}
 
 .textoAnimacao::after {
     content: '|';
@@ -86,6 +80,10 @@ p{
     margin-left: 5px;
     opacity: 1;
     animation: pisca .7s infinite;
+}
+
+.espaco{
+    padding-right: 2em;
 }
 
 @keyframes pisca {
@@ -162,8 +160,14 @@ p{
     }
 }
 
+/*Largura - Deitado*/
 @media screen and (max-width: 1080px) {
 
+    body{
+        margin-right: 0em;
+        padding-right: 0;
+    }
+    
     h1 {
         font-size: 18px;
         margin-left: 3rem;
@@ -173,14 +177,13 @@ p{
         font-size: 12px;
     }
 
-    img.scaled {
-        width: 75px;
-        height: 100px;
-    }
-
     td {
         margin-top: 2%;
         display: block;
+    }
+
+    td.espaco{
+        padding-right: 0em;
     }
 
     ul{
@@ -189,11 +192,19 @@ p{
         padding: 0em;
     }
 
+    nav, footer{
+        width: 100%;
+    }
+
+    #descricao {
+        width: 63%;
+    }
+
     #github {
         padding-top: 0em;
         padding-bottom: 0em;
         margin-left: 0em;
-        width: 100%;
+        width: 63%;
     }
 
     #octocat{
@@ -202,30 +213,39 @@ p{
 
     #foto {
         background-size: 45% 100%;
+        width: 10%;
     }
 
-    .container {
-        width: 80%;
+    .espaco{
+        width: 0em;
+        margin-right: 0;
     }
 
 }
 
-@media screen and (max-height: 620px) {
+/*Em Pé*/
+@media screen and (max-height: 690px) {
+
+    body{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    nav, footer{
+        width: 100%;
+    }
 
     td {
         margin-top: 2%;
         display: inline;
-    }
-    
-    #imgBanner {
-        padding-right: 1em;
-        width: 100%;
+        padding-right: 100%;
     }
 
-    #github {
-        padding-top: 0em;
-        padding-bottom: 0em;
-        margin-left: 0em;
+    td.espaco{
+        padding-right: 0em;
+    }
+
+    #github, #descricao {
         width: 100%;
     }
 
@@ -235,14 +255,18 @@ p{
 
     #foto {
         background-size: 45% 100%;
-    }
-
-    #tabela {
-        width: 100%;
+        padding-right: 100%;
+        margin-left: 0em;
+        height: 10%;
     }
 
     .container {
-        width: 80%;
+        width: 100%;
     }
 
+    .espaco{
+        width: 0em;
+        margin-right: 0;
+    }
+    
 }
