@@ -12,7 +12,6 @@ body {
     background: url(../Images/fundo.gif) no-repeat fixed;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
     width: 100%;
     position: fixed;
     position: absolute;
@@ -20,11 +19,9 @@ body {
 
 footer {
     background-color: #272760;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
     position:absolute;
-    padding-top: 50px;
+    padding-top: 25px;
     margin-top: 10em;
 }
 
@@ -36,17 +33,13 @@ h3 {
     font-weight: bold;
 }
 
-br{
-    padding: 10%;
-}
-
-td{
-    margin-bottom: 2em;
-}
-
 ul{
     width: 80%;
     margin-left: 4rem;
+}
+
+p{
+    text-align: justify;
 }
 
 #imgBanner {
@@ -59,7 +52,7 @@ ul{
 }
 
 #octocat {
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
 
 #lattes {
@@ -167,12 +160,12 @@ ul{
 @media screen and (max-width: 1080px) {
 
     h1 {
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 3rem;
     }
 
     p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     img.scaled {
