@@ -52,6 +52,10 @@ p{
     padding-bottom: 10%;
 }
 
+#github {
+    width: 100%;   
+}
+
 #octocat {
     padding-bottom: 20%;
 }
