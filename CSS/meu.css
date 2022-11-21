@@ -55,15 +55,17 @@ p{
     padding-bottom: 20%;
 }
 
+/*
 #foto {
     background-image: url(../Images/me.jpg);
     background-repeat: no-repeat;
     background-color: white;
     background-size: 45% 101%;
     background-position: 50%;
-    padding-right: 35em;
+    padding-right: 25%;
     padding-bottom: 51%;
 }
+*/
 
 #contatos {
     margin-bottom:1rem;
