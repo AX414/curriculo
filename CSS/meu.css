@@ -9,10 +9,14 @@ and open the template in the editor.
 */
 
 body {
-    background: url(../Images/iceland.jpg) no-repeat fixed;
+    background: url(../images/iceland.jpg) no-repeat fixed;
     background-size: cover;
     background-attachment: fixed;
     background-color: #00293b;
+}
+
+nav, footer{
+    width: 100%;
 }
 
 footer {
@@ -40,37 +44,32 @@ p{
 }
 
 #imgBanner {
-    background-image: url(../Images/card.jpg);
+    background-image: url(../images/card.jpg);
     background-repeat: no-repeat;
-    margin-top: 50px;
-    padding-top: 50px;
+    margin-top: 2%;
+    padding: 4%;
     width: 100%;
+    margin-bottom: 2%;
     background-size: cover;
 }
 
+#descricao #github #curriculo{
+    height: max-content;
+    width: max-content;
+}
+
 #descricao{
-    padding-bottom: 10%;
+    padding-bottom: 4.1%;
 }
 
-#github {
-    width: 100%;   
+#octocat{
+    margin-bottom:1%;
 }
 
-#octocat {
-    padding-bottom: 20%;
+#curriculo{
+    padding-top: 0;
+    margin-top: 2%;
 }
-
-/*
-#foto {
-    background-image: url(../Images/me.jpg);
-    background-repeat: no-repeat;
-    background-color: white;
-    background-size: 45% 101%;
-    background-position: 50%;
-    padding-right: 25%;
-    padding-bottom: 51%;
-}
-*/
 
 #contatos {
     margin-bottom:1rem;
@@ -90,7 +89,7 @@ p{
 }
 
 .espaco{
-    padding-right: 2em;
+    padding-right: 1rem;
 }
 
 @keyframes pisca {
@@ -168,7 +167,7 @@ p{
 }
 
 /*Largura - Deitado*/
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1090px) {
 
     body{
         margin-right: 0em;
@@ -184,67 +183,62 @@ p{
         font-size: 12px;
     }
 
+    tr{
+        bottom: 0;
+    }
+
     td {
-        margin-top: 2%;
+        margin-top: 3%;
+        margin-bottom: 3%;
         display: block;
     }
 
     td.espaco{
-        padding-right: 0em;
+        padding: 0%;
+        margin: 0%;
     }
 
     ul{
         width: 100%;
         margin-left: 0rem;
         padding: 0em;
+        top: 100%;
     }
 
-    nav, footer{
-        width: 100%;
+    #imgBanner{
+        margin-bottom: 0;
     }
 
-    #descricao {
-        width: 100%;
+    #descricao{
+        margin-top: 0;
     }
 
-    #github {
-        padding-top: 0em;
-        padding-bottom: 0em;
-        margin-left: 0em;
-        width: 100%;
+    #descricao #github {
+        height: max-content;
+        width: max-content;
     }
 
-    #octocat{
-        padding-bottom: 0em;
+    #curriculo{
+        margin-top:0;
     }
-
-    /*
-    #foto {
-        background-size: 45% 100%;
-        width: 10%;
-    }
-    */
 
     .espaco{
         width: 0em;
-        margin-right: 0;
+        margin-right: 0%;
+        padding: 0%;
     }
 
 }
 
 /*Em Pé*/
-@media screen and (max-height: 690px) {
-
-    body{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
+@media screen and (max-height: 840px) {
 
     nav, footer{
         width: 100%;
     }
 
     td {
+        margin-bottom: 2%;
         margin-top: 2%;
         display: inline;
         padding-right: 100%;
@@ -254,30 +248,13 @@ p{
         padding-right: 0em;
     }
 
-    #github, #descricao {
-        width: 100%;
+    #descricao #github{
+        height: max-content;
+        width: max-content;
     }
-
-    #octocat{
-        padding-bottom: 0em;
-    }
-
-    /*
-    #foto {
-        background-size: 45% 100%;
-        padding-right: 100%;
-        margin-left: 0em;
-        height: 10%;
-    }
-    */
 
     .container {
         width: 100%;
-    }
-
-    .espaco{
-        width: 0em;
-        margin-right: 0;
     }
     
 }

@@ -15,23 +15,21 @@ and open the template in the editor.
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
-    <link href="./CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="./CSS/mdb.min.css" rel="stylesheet">
+    <link href="./css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="./CSS/style.min.css" rel="stylesheet">
-    <link href="./CSS/meu.css" rel="stylesheet">
-    <script src="./Javascript/script.js"></script>
-    <link rel="shortcut icon" href="./Images/icons/information.png" type="image/x-png">
+    <link href="./css/style.min.css" rel="stylesheet">
+    <link href="./css/meu.css" rel="stylesheet">
+    <script src="./js/script.js" defer></script>
+    <link rel="shortcut icon" href="./images/icons/information.png" type="image/x-png">
 </head>
 
 <body>
-    <!--Main Navigation-->
+
     <header>
-        <!-- Navbar -->
         <nav class="navbar navbar-custom fixed-top navbar-expand-lg">
             <div style="font-size:17px;">
-                <!-- Brand -->
                 <a class="navbar-brand waves-effect" target="_blank">
                     <strong class="glitch" style="font-size:20px;font-weight: lighter;color: #0CFFE1;">
                         [TELA_CURRÍCULO]
@@ -43,39 +41,36 @@ and open the template in the editor.
                 <span class="navbar-toggler-icon"></span>
             </button>
         </nav>
-        <!-- Navbar -->
     </header>
-    <!--Main layout-->
+
     <main class="mt-5 pt-5 container">
+
         <div>
-            <!--Section: Jumbotron-->
             <section id="imgBanner" class="card wow fadeIn">
-                <!-- Content -->
                 <div id="banner" class="card-body text-white text-center py-1 px-1 my-1 " style="padding-bottom: 20px;">
                     <h1 class="mb-6 textoAnimacao" onload="typeWriter()" style="padding-bottom: 20px; font-size:50px;">
                         João Victor Lisboa Porcel
                     </h1>
-                    <script type="text/javascript" src="Javascript/script.js"></script>
                     <h3>
                         <strong style="font-size:30px; color: #0CFFE1;">Técnico em Informática</strong>
                     </h3>
                 </div>
-                <!-- Content -->
             </section>
         </div>
-        <br />
+
         <table>
             <td>
                 <div id="descricao" class="card">
                     <div class="card-body">
                         <h5 class="card-title text-center"><b>Descrição:</b></h5>
                         <p style="text-indent: 4rem; color: black;" class="card-text">
-                            "Meu nome é João Porcel, tenho 21 anos de idade, sou cursado em Técnico de Informática
+                            "Meu nome é João Porcel, tenho <a class="idade"> X</a> anos de idade, sou cursado em Técnico de Informática
                             e atualmente estou na faculdade cursando um
                             Bacharel de Ciência da Computação. Gosto de aprender sobre tecnologias novas e me
                             encontro apto para aprender mais a cada dia, me interesso muito por programação,
                             adoraria ser um desenvolvedor full stack um dia.
                         </p>
+                        
                         <p style="text-indent: 4rem; color: black;" class="card-text">
                             No momento busco por um pontapé inicial para minha carreira e me encontro aberto para
                             propostas de estágio,
@@ -88,44 +83,43 @@ and open the template in the editor.
                     </div>
                 </div>
             </td>
+
             <td class="espaco"></td>
             <td>
-                <div style="width:100%" id="github" class="card">
+                <div id="github" class="card">
                     <div class="card-body">
                         <h5 class="card-title text-center"><b>Meu Github:</b></h5>
                         <center>
                             <a href="https://github.com/AX414">
-                                <img src="./Images/icons/octocat.gif" id="octocat" />
+                                <img src="./images/icons/octocat.gif" id="octocat" />
                             </a>
                         </center>
                     </div>
                 </div>
             </td>
         </table>
-        <!--Section: Jumbotron-->
-        <br class="my-5">
-        <div class="card">
+        
+        <div id="curriculo" class="card">
             <div class="card-body">
                 <table>
                     <tr>
                         <br class="mt-5">
-                        <h1> <img src="./Images/icons/user.png" width="48px" height="48px" />
+                        <h1> <img src="./images/icons/user.png" width="48px" height="48px" />
                             Identificação</h1>
                         <ul>
                             <li class="list-group-item">
                                 <p><b>Nome:</b> João Victor Lisboa Porcel <br>
                                     <b>Data de Nascimento:</b> 04/03/2002<br>
-                                    <b>Curriculo Lattes: </b> <a href="http://lattes.cnpq.br/6341789681719819"> link</a>
+                                    <b>Curriculo Lattes:</b> <a href="http://lattes.cnpq.br/6341789681719819"> link</a>
                                     <br>
-                                    <b>Idade Atual:</b> 21<br>
+                                    <b>Idade Atual:</b> <a class="idade"> X</a><br>
                                     <b>Sexo:</b> Masculino
                                 </p>
                             </li>
                         </ul>
 
-
                         <br class="mt-5">
-                        <h1> <img src="./Images/icons/location.png" width="48px" height="48px" /> Endereço</h1>
+                        <h1> <img src="./images/icons/location.png" width="48px" height="48px" /> Endereço</h1>
                         <ul>
                             <li class="list-group-item">
                                 <p><b>País:</b> Brasil&nbsp;&nbsp;&nbsp;<b>UF:</b> SP<br>
@@ -134,9 +128,8 @@ and open the template in the editor.
                             </li>
                         </ul>
 
-
                         <br class="mt-5">
-                        <h1> <img src="./Images/icons/graduation-cap.png" width="48px" height="48px" /> Formação</h1>
+                        <h1> <img src="./images/icons/graduation-cap.png" width="48px" height="48px" /> Formação</h1>
                         <ul>
                             <li class="list-group-item">
                                 <p><b>Período:</b> 2008 - 2016&nbsp;&nbsp;&nbsp;<b>Local:</b> SESI</p>
@@ -154,9 +147,8 @@ and open the template in the editor.
                             </li>
                         </ul>
 
-
                         <br class="mt-5">
-                        <h1> <img src="./Images/icons/translation.png" width="48px" height="48px" /> Idiomas</h1>
+                        <h1> <img src="./images/icons/translation.png" width="48px" height="48px" /> Idiomas</h1>
                         <ul>
                             <li class="list-group-item">
                                 <p><b>Inglês: </b>Possuo um inglês Intermediário/Independente, isso indica que tenho a
@@ -174,9 +166,8 @@ and open the template in the editor.
                             </li>
                         </ul>
 
-
                         <br class="mt-5">
-                        <h1> <img src="./Images/icons/graduation-cap.png" width="48px" height="48px" /> Programação
+                        <h1> <img src="./images/icons/graduation-cap.png" width="48px" height="48px" /> Programação
                         </h1>
                         <ul>
                             <li class="list-group-item">
@@ -208,7 +199,7 @@ and open the template in the editor.
                                 <p>
                                     <img
                                         src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-                                    - Eu utilizei muito C++ para desenvolver chatbots com o Microsoft Bot Framework e aplicações de computação gráfica com o OpenGL (Antigo e Moderno).
+                                    - Eu utilizei C++ para desenvolver chatbots com o Microsoft Bot Framework e aplicações de computação gráfica com o OpenGL (Antigo e Moderno).
                                 </p>
                             </li>
                             <li class="list-group-item">
@@ -226,9 +217,6 @@ and open the template in the editor.
                                     utilizamos a linguagem R para o uso de Limpeza de Dados, estudo sobre Regressão Logística e Multipla, Padronização e Avaliação de Dados. 
                                 </p>
                             </li>
-
-
-                            
                             <li class="list-group-item">
                                 <p>
                                     <img
@@ -238,7 +226,8 @@ and open the template in the editor.
                                     eu procurei aprender mais sobre a linguagem por conta própria e já utilizei em
                                     alguns projetos pessoais meus, seja para o desenvolvimento de um client de um
                                     Web Service, ou seja para o estudo de Ciência de Dados (é possível ver alguns
-                                    exercícios em meu github) com o uso da biblioteca "pandas".
+                                    exercícios em meu github) com o uso da biblioteca "pandas". Atualmente, em 2023, estou utilizando Python
+                                    em um grupo de estudo para maratonas de programação também.
                                 </p>
                             </li>
                             <li class="list-group-item">
@@ -259,9 +248,8 @@ and open the template in the editor.
                             </li>
                         </ul>
 
-
                         <br class="mt-5">
-                        <h1> <img src="./Images/icons/framework.png" width="48px" height="48px" /> Frameworks
+                        <h1> <img src="./images/icons/framework.png" width="48px" height="48px" /> Frameworks
                         </h1>
                         <ul>
                             <li class="list-group-item">
@@ -276,9 +264,8 @@ and open the template in the editor.
                             </li>
                         </ul>
 
-
                         <br class="mt-5">
-                        <h1> <img src="./Images/icons/database.png" width="48px" height="48px" /> Banco de Dados
+                        <h1> <img src="./images/icons/database.png" width="48px" height="48px" /> Banco de Dados
                         </h1>
                         <ul>
                             <li class="list-group-item">
@@ -301,18 +288,23 @@ and open the template in the editor.
                             </li>
                         </ul>
 
-
                         <br class="mt-5">
-                        <h1> <img src="./Images/icons/achievement2.png" width="48px" height="48px" /> Prêmios</h1>
+                        <h1> <img src="./images/icons/achievement2.png" width="48px" height="48px" /> Prêmios</h1>
                         <ul>
-                            <li class="list-group-item"><b>2018-</b> Prêmio de 1° lugar nas Olimpíadas de
-                                Programação da Semana de Ciência e
-                                Tecnologia de 2018, IFSP de Presidente Epitácio.</li>
-                            <li class="list-group-item"><b>2018-</b> Prêmio de 2° lugar na Startup Weekend de
-                                Presidente Epitácio.</li>
+                            <li class="list-group-item">
+                                <p>
+                                    <b>2018-</b> Prêmio de 1° lugar nas Olimpíadas de
+                                    Programação da Semana de Ciência e
+                                    Tecnologia de 2018, IFSP de Presidente Epitácio.
+                                </p>
+                            </li>
+                            <li class="list-group-item">
+                                <p>
+                                    <b>2018-</b> Prêmio de 2° lugar na Startup Weekend de
+                                    Presidente Epitácio.
+                                </p>
+                            </li>
                         </ul>
-
-
                     </tr>
                 </table>
             </div>
@@ -320,17 +312,16 @@ and open the template in the editor.
         </div>
     </main>
 
-
     <footer>
         <div id="contatos" class="text-center">
             <h2 style="color:whitesmoke;margin-left: 0rem;">
-                <img src="./Images/icons/information.png" width="48px" height="48px" />
+                <img src="./images/icons/information.png" width="48px" height="48px" />
                 Contatos
             </h2>
             <a href="mailto:joaovictorlisboaporcel@hotmail.com">
-                <img src="./Images/icons/outlook.svg" target="_blank"></a>
+                <img src="./images/icons/outlook.svg" target="_blank"></a>
             <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-lisboa-porcel-2755b61a5/" target="_blank">
-                <img src="./Images/icons/linkedin.svg" target="_blank">
+                <img src="./images/icons/linkedin.svg" target="_blank">
             </a>
         </div>
     </footer>
