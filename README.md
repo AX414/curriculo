@@ -1,3 +1,3 @@
 # Currículo
 
-Este é um currículo que criei em um dia livre, eu quis mexer bastante no quesito design dele.
+Este é meu currículo virtual, vira e mexa eu atualizo ele.
