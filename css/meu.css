@@ -47,10 +47,6 @@ ul p {
     text-indent: 0rem;
 }
 
-h2{
-    font-size: 24px;
-}
-
 ul {
     margin-left: 0%;
     margin-right: 0%;
@@ -62,7 +58,11 @@ a{
 }
 
 h1{
-    font-size: 300%; 
+    font-size: 50px; 
+}
+
+strong{
+    font-size:30px;
 }
 
 #banner{
@@ -209,15 +209,17 @@ h1{
 @media screen and (max-width: 1080px) {
     
     h1{
-        font-size: 130%; 
+        font-size: 24px; 
     }
 
-    h3{
-        font-size: 70%;
+    strong{
+        font-size:18px;
     }
 
     p {
-        font-size: 12px;
+        text-indent: 1%;
+        font-size: 16px;
+        text-align: justify;
     }
 
     footer{
@@ -238,20 +240,20 @@ h1{
 }
 
 /*Em Pé*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
 
     h1{
-        font-size: 130%; 
+        font-size: 24px; 
     }
 
-    h3{
-        font-size: 70%;
+    strong{
+        font-size:18px;
     }
-    
+
     p{
-        margin-left: 5%;
-        margin-right: 5%;
-        text-indent: 1rem;
+        text-indent: 1%;
+        font-size: 16px;
+        text-align: justify;
     }
 
     footer{
