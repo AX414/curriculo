@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
 
 <head>
@@ -11,7 +6,7 @@ and open the template in the editor.
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>TELA_CURRÍCULO</title>
+    <title>[TELA_CURRICULO]</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -21,309 +16,443 @@ and open the template in the editor.
     <!-- Your custom styles (optional) -->
     <link href="./css/style.min.css" rel="stylesheet">
     <link href="./css/meu.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/icons/py.png" type="image/x-png">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
     <script src="./js/script.js" defer></script>
-    <link rel="shortcut icon" href="./images/icons/information.png" type="image/x-png">
 </head>
 
 <body>
-
     <header>
-        <nav class="navbar navbar-custom fixed-top navbar-expand-lg">
-            <div style="font-size:17px;">
-                <a class="navbar-brand waves-effect" target="_blank">
-                    <strong class="glitch" style="font-size:20px;font-weight: lighter;color: #0CFFE1;">
-                        [TELA_CURRÍCULO]
-                    </strong>
-                </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-custom fixed navbar-expand-lg">
+            <a class="navbar-brand waves-effect" target="_blank">
+                <strong class="glitch" style="font-size:20px;font-weight: lighter;color: #0CFFE1;">
+                    [TELA_CURRICULO]
+                </strong>
+            </a>
         </nav>
     </header>
 
-    <main class="mt-5 pt-5 container">
+    <div id="banner">
+        <center>
+                <a href="https://github.com/AX414">
+                    <img id="avatar" class="thumbnail" src="https://avatars.githubusercontent.com/u/68911216?v=4">
+                </a>
+            <br>
+            <h1 class="mb-6 text-white textoAnimacao" onload="typeWriter()"
+                style="padding-bottom: 20px; font-size:50px;">
+                João Victor Lisboa Porcel
+            </h1>
+            <h3 style="padding-bottom: 20px;">
+                <strong style="font-size:30px; color: #0CFFE1;">Técnico em Informática</strong>
+            </h3>
+        </center>
+    </div>
 
-        <div>
-            <section id="imgBanner" class="card wow fadeIn">
-                <div id="banner" class="card-body text-white text-center py-1 px-1 my-1 " style="padding-bottom: 20px;">
-                    <h1 class="mb-6 textoAnimacao" onload="typeWriter()" style="padding-bottom: 20px; font-size:50px;">
-                        João Victor Lisboa Porcel
-                    </h1>
-                    <h3>
-                        <strong style="font-size:30px; color: #0CFFE1;">Técnico em Informática</strong>
-                    </h3>
-                </div>
-            </section>
+    <div id="conteudo">
+        <div id="cartao1">
+
+            <div id="sobre-mim">
+            <h4 class="card-title text-center"><b>Sobre mim:</b></h4>
+            <p style="text-indent: 4rem; color: black;" class="card-text">
+                Meu nome é João Victor Libsoa Porcel, tenho <a class="idade">X</a>
+                anos de idade, sou cursado em Técnico de Informática
+                e atualmente estou na faculdade cursando um
+                Bacharel de Ciência da Computação. Gosto de aprender sobre tecnologias novas e me
+                encontro apto para aprender mais a cada dia, me interesso muito por programação,
+                adoraria ser um desenvolvedor algum dia.
+            </p>
+
+            <p style="text-indent: 4rem; color: black;" class="card-text">
+                No momento busco por um pontapé inicial para minha carreira,
+                sou interessado em aprender novas soluções e novas tecnologias,
+                proativo em realizar pesquisas e , gosto de trabalhar em equipe,
+                mas também me dou bem sozinho quando necessário,
+                gosto de resolver problemas e creio que os desafios fazem parte de um dos fatores que me
+                trouxeram para a área de
+                Tecnologia da Informação e Comunicação.
+            </p>
         </div>
 
-        <table>
-            <td>
-                <div id="descricao" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><b>Descrição:</b></h5>
-                        <p style="text-indent: 4rem; color: black;" class="card-text">
-                            Meu nome é João Victor Libsoa Porcel, mas pode me chamar de JP, tenho <a class="idade"> X</a> anos de idade, sou cursado em Técnico de Informática
-                            e atualmente estou na faculdade cursando um
-                            Bacharel de Ciência da Computação. Gosto de aprender sobre tecnologias novas e me
-                            encontro apto para aprender mais a cada dia, me interesso muito por programação,
-                            adoraria ser um desenvolvedor algum dia.
-                        </p>
-                        
-                        <p style="text-indent: 4rem; color: black;" class="card-text">
-                            No momento busco por um pontapé inicial para minha carreira,
-                            sou interessado em aprender novas soluções e novas tecnologias, 
-                            proativo em realizar pesquisas e , gosto de trabalhar em equipe, 
-                            mas também me dou bem sozinho quando necessário,
-                            gosto de resolver problemas e creio que os desafios fazem parte de um dos fatores que me
-                            trouxeram para a área de
-                            Tecnologia da Informação e Comunicação.
-                        </p>
+            <div class="accordion" id="accordionExample" style="margin-top: 1rem;">
+
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <img src="./images/icons/user.png" width="24px" height="24px" />&nbsp;&nbsp;
+                                INFORMAÇÕES PESSOAIS
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul>
+                                <li class="list-group-item">
+                                    <p>
+                                        <b>Nome:</b> João Victor Lisboa Porcel &nbsp;&nbsp;&nbsp;
+                                        <b>Sexo:</b> Masculino<br>
+                                        <b>Data de Nascimento:</b> 04/03/2002 &nbsp;&nbsp;&nbsp;
+                                        <b>Idade Atual:</b> <a class="idade"> X</a><br>
+                                        <b>Curriculo Lattes:</b><a href="http://lattes.cnpq.br/6341789681719819"> aqui</a>
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <b>País:</b> Brasil<br>
+                                        <b>Cidade:</b> Presidente Epitácio
+                                        <b>UF:</b> SP
+                                        
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </td>
 
-            <td class="espaco"></td>
-            <td>
-                <div id="github" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><b>Meu Github:</b></h5>
-                        <center>
-                            <a href="https://github.com/AX414">
-                                <img src="./images/icons/octocat.gif" id="octocat" />
-                            </a>
-                        </center>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <img src="./images/icons/graduation-cap.png" width="24px" height="24px" />&nbsp;&nbsp;
+                                FORMAÇÃO
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul>
+                                <li class="list-group-item">
+                                    <p>
+                                        <b>Período:</b> 2020 - Previsto para 2023
+                                        <br><b>Local:</b> Instituto Federal de Ciência e Tecnologia - Presidente
+                                        Epitácio
+                                        <br><b>Curso:</b> Bacharelado em Ciência da Computação.
+                                        <br><b>TCC:</b> Desenvolvimento e implementação de um sistema distribuído aberto para gerenciamento de estações meteorológicas (<a href="https://github.com/ax414/tcc-bcc">projeto no meu github</a>).
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <b>Período:</b> 2017 - 2019
+                                        <br><b>Local:</b> Instituto Federal de Ciência e Tecnologia - Presidente
+                                        Epitácio
+                                        <br><b>Curso:</b> Técnico em Informática Integrado ao Ensino Médio.
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <b>Período:</b> 2008 - 2016
+                                        <br><b>Local:</b> SESI
+                                        <br>(Ensino Fundamental).
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </td>
-        </table>
-        
-        <div id="curriculo" class="card">
-            <div class="card-body">
-                <table>
-                    <tr>
-                        <br class="mt-5">
-                        <h1> <img src="./images/icons/user.png" width="48px" height="48px" />
-                            Identificação</h1>
-                        <ul>
-                            <li class="list-group-item">
-                                <p><b>Nome:</b> João Victor Lisboa Porcel <br>
-                                    <b>Data de Nascimento:</b> 04/03/2002<br>
-                                    <b>Curriculo Lattes:</b> <a href="http://lattes.cnpq.br/6341789681719819"> link</a>
-                                    <br>
-                                    <b>Idade Atual:</b> <a class="idade"> X</a><br>
-                                    <b>Sexo:</b> Masculino
-                                </p>
-                            </li>
-                        </ul>
 
-                        <br class="mt-5">
-                        <h1> <img src="./images/icons/location.png" width="48px" height="48px" /> Endereço</h1>
-                        <ul>
-                            <li class="list-group-item">
-                                <p><b>País:</b> Brasil&nbsp;&nbsp;&nbsp;<b>UF:</b> SP<br>
-                                    <b>Cidade:</b> Presidente Epitácio
-                                </p>
-                            </li>
-                        </ul>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <img src="./images/icons/translation.png" width="24px" height="24px" />&nbsp;&nbsp;
+                                IDIOMAS
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul>
+                                <li class="list-group-item">
+                                    <p><b>Inglês: </b>Possuo um inglês Intermediário/Independente, isso indica que
+                                        tenho a
+                                        capacidade de ler, escrever, compreender e falar em inglês, tenho contato
+                                        com a
+                                        língua
+                                        inglesa desde meus quatro anos de idade graças aos filmes e videogames.
+                                        Posteriormente tive contato com a língua em meu ensino fundamental e em meu
+                                        ensino médio durante as aulas e atualmente boa parcela dos conteúdos que
+                                        consumo são em inglês.
+                                    </p>
+                                    <hr>
+                                    <p><b>Espanhol: </b>Razoável, tive a oportunidade de estudar um
+                                        pouco sobre a língua espanhola no IF, porém o curso durou pouco tempo em meu
+                                        ensino médio.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                        <br class="mt-5">
-                        <h1> <img src="./images/icons/graduation-cap.png" width="48px" height="48px" /> Formação</h1>
-                        <ul>
-                            <li class="list-group-item">
-                                <p><b>Período:</b> 2008 - 2016&nbsp;&nbsp;&nbsp;<b>Local:</b> SESI</p>&nbsp;&nbsp;&nbsp;<br>
-                                <p>Ensino Fundamental.</p>
-                            </li>
-                            <li class="list-group-item">
-                                <p><b>Período:</b> 2017 - 2019&nbsp;&nbsp;&nbsp;<b>Local:</b> Instituto Federal de Ciência e Computação&nbsp;&nbsp;&nbsp;<br>
-                                    <b>Curso:</b> Técnico em Informática Integrado ao Ensino Médio.</p>
-                            </li>
-                            <li class="list-group-item">
-                                <p><b>Período:</b> 2020 - Previsto para 2023 &nbsp;&nbsp;&nbsp;<b>Local:</b>
-                                    Instituto Federal de Ciência e Computação&nbsp;&nbsp;&nbsp;<br><b>Curso:</b> Bacharel em Ciência da
-                                    Computação.</p>
-                            </li>
-                        </ul>
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <img src="./images/icons/experiencias.png" width="24px" height="24px" />&nbsp;&nbsp;
+                                EXPERIÊNCIAS
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul>
+                                <li class="list-group-item">
+                                    <b>Local:</b> IFSP – Campus Presidente Epitácio/SP
+                                    <br><b>Período:</b> Maio de 2023
+                                    <br><b>Experiencia:</b> Atuei como apresentador do "Minicurso como desenvolver bots
+                                    para o Discord
+                                    utilizando Python" na IV Semana Epitaciana de Computação. O minicurso foi feito por
+                                    mim mesmo e desenvolvi uma página com o conteúdo dele que pode ser encontrada <a
+                                        href="https://AX414.github.io/pokedex-discord-bot">aqui</a>.
+                                    <hr>
+                                    <b>Local:</b> IFSP – Campus Presidente Epitácio/SP
+                                    <br><b>Período:</b> Maio de 2023
+                                    <br><b>Experiencia:</b> Atuei como apresentador do "Minicurso de Introdução à
+                                    Python" na IV Semana
+                                    Epitaciana de Computação.
+                                    <hr>
+                                    <b>Local:</b> IFSP – Campus Presidente Epitácio/SP
+                                    <br><b>Período:</b> 2023
+                                    <br><b>Experiencia:</b>
+                                    Fiz parte da Fábrica de Software Acadêmica e efetuei a manutenção do sistema de
+                                    gerenciamento de TCCs em equipe.
+                                    <hr>
+                                    <b>Local:</b> IFSP – Campus Presidente Epitácio/SP
+                                    <br><b>Período:</b> 15/03/2019 à 19/06/2019
+                                    <br><b>Experiencia:</b> Participação no Programa de Bolsa de Ensino como discente
+                                    voluntário - Projeto:
+                                    "Nivelamento em Língua Inglesa".
+                                    <hr>
+                                    <b>Local:</b> IFSP – Campus Presidente Epitácio/SP
+                                    <br><b>Período:</b> 2018
+                                    <br><b>Experiencia:</b> Prêmio de 1° lugar nas Olimpíadas de Programação da Semana
+                                    de Ciência e
+                                    Tecnologia de 2018.
+                                    <hr>
+                                    <b>Local:</b> IFSP – Campus Presidente Epitácio/SP
+                                    <br><b>Período:</b> 2018
+                                    <br><b>Experiencia:</b>Prêmio de 2° lugar na Startup Weekend de Presidente Epitácio.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                        <br class="mt-5">
-                        <h1> <img src="./images/icons/translation.png" width="48px" height="48px" /> Idiomas</h1>
-                        <ul>
-                            <li class="list-group-item">
-                                <p><b>Inglês: </b>Possuo um inglês Intermediário/Independente, isso indica que tenho a
-                                    capacidade de ler, escrever, compreender e falar em inglês, tenho contato com a
-                                    língua
-                                    inglesa desde meus quatro anos de idade graças aos filmes e videogames,
-                                    posteriormente
-                                    tive contato com a língua em meu ensino fundamental e em meu ensino médio.
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p><b>Espanhol: </b>Razoável, tive a oportunidade de estudar um
-                                    pouco sobre a língua espanhola em minha faculdade, porém o curso durou pouco tempo.
-                                </p>
-                            </li>
-                        </ul>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <img src="./images/icons/web-programming.png" width="24px" height="24px" />&nbsp;&nbsp;
+                                CONHECIMENTO EM PROGRAMAÇÃO
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul>
+                                <li class="list-group-item">
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
+                                        - Sou familiarizado com o desenvolvimento de sites com o uso da Linguagem de
+                                        Marcação de Hipertexto, geralmente gosto de utilizar a biblioteca Bootstrap
+                                        e JS
+                                        para a estilização deles.
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
+                                        - Eu sei utilizar o CSS para a estilização de websites, aplicar
+                                        responsividade e
+                                        alguns efeitos pertinentes ao design do site. Nada de tão gritante, tenho
+                                        uma
+                                        experiência bem comum com o desenvolvimento de sites.
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" />
+                                        - A linguagem C foi meu primeiro contato com a programação durante o ensino
+                                        médio,
+                                        basicamente eu
+                                        desenvolvi muitos programas e foi aqui onde eu explorei sobre as boas
+                                        práticas de
+                                        programação.
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+                                        - Eu utilizei C++ para desenvolver chatbots com o Microsoft Bot Framework e
+                                        aplicações de computação gráfica com o OpenGL (Antigo e Moderno).
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+                                        - Todas as aplicações mobile que desenvolvi durante meus estudos faziam uso
+                                        de
+                                        typescript para o back-end.
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" />
+                                        - Durante meus estudos sobre Ciência de Dados e Probabilidade e Estatística
+                                        na
+                                        faculdade,
+                                        utilizamos a linguagem R para o uso de Limpeza de Dados, estudo sobre
+                                        Regressão
+                                        Logística e Multipla, Padronização e Avaliação de Dados.
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" />
+                                        - Eu sou bem familiarizado com a linguagem Java, em meu ensino médio e na
+                                        faculdade tive que desenvolver sistemas de gerenciamento locais com o uso da
+                                        linguagem. No ensino médio desenvolvi um Sistema de Gerenciamento de uma
+                                        loja de
+                                        informática (fictícia), o sistema possuia níveis de acesso (Administrador e
+                                        Funcionário), relatórios com JasperReports e um banco de dados que
+                                        funcionaria
+                                        localmente. Mais recentemente pude realizar outro sistema semelhante, porém
+                                        o
+                                        caso seria de uma loja de Artesanato, o sistema em questão foi realizado em
+                                        dupla com outro aluno da disciplina e pode ser visto em meu github também.
+                                        Em
+                                        resumo, possuo conhecimento sobre Java Orientado à Objetos, Desenvolvimento
+                                        de Sistemas Locais com Swing e JPA.
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+                                        - Gosto muito de Python, já fiz parte do grupo de programação de python para
+                                        as
+                                        maratonas de programação do
+                                        IF e utilizei a plataforma beecrowd durante meus estudos para solucionar
+                                        diversos
+                                        desafios. Durante o meu
+                                        período de estudo eu também desenvolvi dois bots para o Discord, ministrei
+                                        um
+                                        minicurso de como desenvolver
+                                        um bot para o discord utilizando a linguagem Python e também ministrei um
+                                        curso
+                                        introdutório ao
+                                        Python em conjunto com outro colega, ambos durante a IV Semana Epitaciana de
+                                        Educação do IFSP - Campus de Presidente Epitácio.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                        <br class="mt-5">
-                        <h1> <img src="./images/icons/graduation-cap.png" width="48px" height="48px" /> Programação
-                        </h1>
-                        <ul>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
-                                    - Sou familiarizado com o desenvolvimento de sites com o uso da Linguagem de
-                                    Marcação de Hipertexto, geralmente gosto de utilizar a biblioteca Bootstrap e JS
-                                    para a estilização deles.
-                                </p>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
-                                    - Eu sei utilizar o CSS para a estilização de websites, aplicar responsividade e
-                                    alguns efeitos pertinentes ao design do site. Nada de tão gritante, tenho uma
-                                    experiência bem comum com o desenvolvimento de sites.
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" />
-                                    - A linguagem C foi meu primeiro contato com a programação durante o ensino médio, basicamente eu 
-                                    desenvolvi muitos programas e foi aqui onde eu explorei sobre as boas práticas de programação.
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-                                    - Eu utilizei C++ para desenvolver chatbots com o Microsoft Bot Framework e aplicações de computação gráfica com o OpenGL (Antigo e Moderno).
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
-                                    - Todas as aplicações mobile que desenvolvi durante meus estudos faziam uso de typescript para o back-end. 
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" />
-                                    - Durante meus estudos sobre Ciência de Dados e Probabilidade e Estatística na faculdade, 
-                                    utilizamos a linguagem R para o uso de Limpeza de Dados, estudo sobre Regressão Logística e Multipla, Padronização e Avaliação de Dados. 
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-                                    - Eu não possuo um conhecimento profundo em Python visto que não foi uma
-                                    linguagem tão explorada durante meu ensino médio e nem em minha faculdade, porém
-                                    eu procurei aprender mais sobre a linguagem por conta própria e já utilizei em
-                                    alguns projetos pessoais meus, seja para o desenvolvimento de um client de um
-                                    Web Service, ou seja para o estudo de Ciência de Dados (é possível ver alguns
-                                    exercícios em meu github) com o uso da biblioteca "pandas". Atualmente, em 2023, estou utilizando Python
-                                    em um grupo de estudo para maratonas de programação também.
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" />
-                                    - Eu sou bem familiarizado com a linguagem Java, em meu ensino médio e na
-                                    faculdade tive que desenvolver sistemas de gerenciamento locais com o uso da
-                                    linguagem. No ensino médio desenvolvi um Sistema de Gerenciamento de uma loja de
-                                    informática (fictícia), o sistema possuia níveis de acesso (Administrador e
-                                    Funcionário), relatórios com JasperReports e um banco de dados que funcionaria
-                                    localmente. Mais recentemente pude realizar outro sistema semelhante, porém o
-                                    caso seria de uma loja de Artesanato, o sistema em questão foi realizado em
-                                    dupla com outro aluno da disciplina e pode ser visto em meu github também. Em
-                                    resumo, possuo conhecimento sobre Java Orientado à Objetos, Desenvolvimento
-                                    de Sistemas Locais com Swing e JPA.
-                                </p>
-                            </li>
-                        </ul>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <img src="./images/icons/framework.png" width="24px" height="24px" />&nbsp;&nbsp;
+                                CONHECIMENTO DE FRAMEWORKS
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul>
+                                <li class="list-group-item">
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white" />
+                                        - Desenvolvi alguns projetos pequenos utilizando o Ionic e o Angular em algumas
+                                        disciplinas da faculdade, fui capaz de desenolver sistemas de gerencia básicos
+                                        capazes de criar, editar, remover e alterar dados, consumir API's, realizar
+                                        autenticações com token JWT (JSON Web Token) e afins.
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
+                                        - Eu tenho o costume de usar sempre o Bootstrap durante qualquer desenvolvimento
+                                        front-end, é um framework
+                                        com um design agradável, na minha opinião.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                        <br class="mt-5">
-                        <h1> <img src="./images/icons/framework.png" width="48px" height="48px" /> Frameworks
-                        </h1>
-                        <ul>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white" />
-                                    - Desenvolvi alguns projetos pequenos utilizando o Ionic e o Angular em algumas
-                                    disciplinas da faculdade, fui capaz de desenolver sistemas de gerencia básicos
-                                    capazes de criar, editar, remover e alterar dados, consumir API's, realizar
-                                    autenticações com token JWT (JSON Web Token) e afins.
-                                </p>
-                            </li>
-                        </ul>
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix"
+                                aria-expanded="false" aria-controls="collapseSix">
+                                <img src="./images/icons/database.png" width="24px" height="24px" />&nbsp;&nbsp;
+                                CONHECIMENTO SOBRE BANCOS DE DADOS
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul>
+                                <li class="list-group-item">
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+                                        - Basicamente durante todo o meu ensino médio e durante alguns projetos da
+                                        faculdade, eu utilizei o MySQL Workbench para o desenvolvimento e modelagem de
+                                        Bancos de Dados, bem como o Postgres, sou familiarizado com a ferramenta já faz
+                                        um bom tempo.
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        <img
+                                            src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+                                        - Conheço a ferramenta, já utilizei ela para o desenvolvimento de Bancos de
+                                        Dados, não sou tão familiarizado em comparação com o MySQL.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                        <br class="mt-5">
-                        <h1> <img src="./images/icons/database.png" width="48px" height="48px" /> Banco de Dados
-                        </h1>
-                        <ul>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
-                                    - Basicamente durante todo o meu ensino médio e durante alguns projetos da
-                                    faculdade, eu utilizei o MySQL Workbench para o desenvolvimento e modelagem de
-                                    Bancos de Dados, bem como o Postgres, sou familiarizado com a ferramenta já faz
-                                    um bom tempo.
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>
-                                    <img
-                                        src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-                                    - Conheço a ferramenta, já utilizei ela para o desenvolvimento de Bancos de
-                                    Dados, não sou tão familiarizado em comparação com o MySQL.
-                                </p>
-                            </li>
-                        </ul>
-
-                        <br class="mt-5">
-                        <h1> <img src="./images/icons/achievement2.png" width="48px" height="48px" /> Prêmios</h1>
-                        <ul>
-                            <li class="list-group-item">
-                                <p>
-                                    <b>2018-</b> Prêmio de 1° lugar nas Olimpíadas de
-                                    Programação da Semana de Ciência e
-                                    Tecnologia de 2018, IFSP de Presidente Epitácio.
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <p>
-                                    <b>2018-</b> Prêmio de 2° lugar na Startup Weekend de
-                                    Presidente Epitácio.
-                                </p>
-                            </li>
-                        </ul>
-                    </tr>
-                </table>
             </div>
         </div>
-        </div>
-    </main>
-
+    </div>
     <footer>
         <div id="contatos" class="text-center">
             <h2 style="color:whitesmoke;margin-left: 0rem;">
-                <img src="./images/icons/information.png" width="48px" height="48px" />
                 Contatos
             </h2>
             <a href="mailto:joaovictorlisboaporcel@hotmail.com">
-                <img src="./images/icons/outlook.svg" target="_blank"></a>
+                <img class="img-fluid" src="./images/icons/outlook.svg" target="_blank"></a>
             <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-lisboa-porcel-2755b61a5/" target="_blank">
-                <img src="./images/icons/linkedin.svg" target="_blank">
+                <img class="img-fluid" src="./images/icons/linkedin.svg" target="_blank">
             </a>
         </div>
     </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 
 </html>
