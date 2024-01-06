@@ -132,6 +132,20 @@ strong{
     animation: pisca .7s infinite;
 }
 
+#contatos a{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+#contatos img, #conteudo img{
+    border-radius: 25px;
+}
+
+.btn-link, .btn, h5{
+    text-decoration:none;
+}
+
 @keyframes pisca {
 
     0%,
@@ -238,6 +252,7 @@ strong{
         margin-left: 5%;
         margin-right: 5%;
     }
+
 }
 
 /*Em Pé*/
@@ -271,4 +286,5 @@ strong{
         margin-right: 10%;
     }
 
+    
 }
