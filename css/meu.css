@@ -89,13 +89,12 @@ strong {
 }
 
 #contatos {
-    color: whitesmoke;
-    margin-bottom: 15px;
+    color: #0CFFE1;
 }
 
 #sobre-mim {
     padding-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
     text-align: justify;
 }
 
@@ -195,7 +194,6 @@ h5 {
 .glitch {
     text-transform: uppercase;
     position: relative;
-    font-size: 50px;
     text-shadow:
         0.05em 0 0 rgb(255, 0, 0, .75),
         0.025em 0.05em 0 rgb(0, 255, 0, .75),
@@ -266,7 +264,6 @@ h5 {
     }
 
     p {
-        text-indent: 1%;
         font-size: 16px;
         text-align: justify;
     }
@@ -305,7 +302,6 @@ h5 {
     }
 
     p {
-        text-indent: 1%;
         font-size: 16px;
         text-align: justify;
     }
