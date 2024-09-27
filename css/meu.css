@@ -107,6 +107,7 @@ strong {
     color: #0CFFE1;
     margin-left: 5px;
     opacity: 1;
+    font-size: 30px;
     animation: pisca .7s infinite;
 }
 
