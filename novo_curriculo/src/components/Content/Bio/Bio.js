@@ -51,7 +51,7 @@ export default function Bio() {
       </BioText>
 
       <DownloadButton
-        href="./assets/docs/Currículo Backend 2025.pdf"
+        href={`${process.env.PUBLIC_URL}/assets/docs/curriculo.pdf`}
         download
         title="Baixar currículo em PDF"
       >
