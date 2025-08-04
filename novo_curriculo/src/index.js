@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/pages/App';
 import reportWebVitals from './reportWebVitals';
+import wall from './assets/image/wall.jpg';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -23,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
 
   body::after {
     content: "";
-    background: url('./assets/images/wall.jpg') no-repeat center center fixed;
+    background: url('${wall}') no-repeat center center fixed;
     background-size: cover;
     opacity: 0.5;
     position: absolute;

@@ -51,7 +51,7 @@ export default function Bio() {
       </BioText>
 
       <DownloadButton
-        href="/assets/docs/Currículo Backend 2025.pdf"
+        href="./assets/docs/Currículo Backend 2025.pdf"
         download
         title="Baixar currículo em PDF"
       >
