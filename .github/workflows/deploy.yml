@@ -19,8 +19,15 @@ jobs:
         with:
           node-version: 20
 
-      - working-directory: ./novo_curriculo
+      - name: Instalar dependências
+        working-directory: ./novo_curriculo
         run: npm install
 
-      - working-directory: ./novo_curriculo
+      - name: Configurar Git
+        run: |
+          git config --global user.name "AX414"
+          git config --global user.email "joaovictorlisboaporcel@hotmail.com"
+
+      - name: Deploy
+        working-directory: ./novo_curriculo
         run: npm run deploy
