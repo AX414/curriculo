@@ -13,22 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Instalar dependências
-        working-directory: ./novo_curriculo
+      - working-directory: ./novo_curriculo
         run: npm install
 
-      - name: Gerar build
-        working-directory: ./novo_curriculo
-        run: npm run build
-
-      - name: Publicar no GitHub Pages
-        working-directory: ./novo_curriculo
+      - working-directory: ./novo_curriculo
         run: npm run deploy
