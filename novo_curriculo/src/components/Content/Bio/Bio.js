@@ -40,8 +40,7 @@ export default function Bio() {
     <BioSection>
 
       <BioText>
-        Meu nome é João Victor Lisboa Porcel, sou formado como Técnico em Informática e Ciências da Computação e 
-        sólida experiência acadêmica em desenvolvimento de 
+        Meu nome é João Victor Lisboa Porcel, sou formado como Técnico em Informática e Bacharel em Ciências da Computação, tenho sólida experiência acadêmica em desenvolvimento de 
         sistemas e participação de projetos em equipe. 
         Atualmente sou concursado e atuo como Técnico em Informática, frequentemente 
         realizando manutenção em hardware de computadores, além disso, tenho experiência 
