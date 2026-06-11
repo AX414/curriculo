@@ -19,8 +19,14 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install
+      - name: Instalar dependências
+        working-directory: ./novo_curriculo
+        run: npm install
 
-      - run: npm run build
+      - name: Build
+        working-directory: ./novo_curriculo
+        run: npm run build
 
-      - run: npx gh-pages -d build
+      - name: Deploy
+        working-directory: ./novo_curriculo
+        run: npx gh-pages -d build
